@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avinash Rana - Senior Backend Software Engineer Portfolio">
+    <title>Avinash Rana | Senior Backend Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Avinash<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/Avinash_Rana_Resume.pdf" download class="nav-resume-btn"><i class="fas fa-file-pdf"></i> Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Pinned Hero Sequence -->
+    <div class="hero-pin-container">
+        <header class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-content gsap-hero-content">
+                <div class="profile-container gsap-profile">
+                    <img src="assets/images/profile_pic.png" alt="Backend Avatar" class="profile-pic">
+                </div>
+                <h1 class="gsap-hero-title">Hi, I'm <span class="accent-text">Avinash Rana</span></h1>
+                <h2 class="gsap-hero-subtitle">Senior Backend Engineer</h2>
+                <p class="gsap-hero-desc">Building scalable systems, microservices, and high-throughput fintech platforms handling 350+ TPS for millions of users.</p>
+                <div class="hero-cta gsap-hero-cta">
+                    <a href="#experience" class="btn primary-btn">View Experience</a>
+                    <a href="assets/Avinash_Rana_Resume.pdf" download class="btn secondary-btn"><i class="fas fa-file-pdf"></i> Resume</a>
+                    <a href="https://github.com/avinashsinghrana" target="_blank" class="btn secondary-btn"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Scroll Content -->
+    <main class="main-content">
+        <!-- About Section (Pinned Layout) -->
+        <section class="about" id="about">
+            <div class="container about-container">
+                <div class="about-text gsap-about-text">
+                    <h2 class="section-title left-align">About Me</h2>
+                    <p>I am a <strong>Senior Software Engineer</strong> with 6+ years of experience building highly available backend systems. I specialize in <strong>Java, Spring Boot, Kafka, Redis, and PostgreSQL</strong>.</p>
+                    <p>I have proven expertise in designing event-driven architectures, optimizing latency by 60%+, and delivering resilient, low-latency microservices for major fintech platforms like PineLabs and Airtel Payments Bank.</p>
+                </div>
+                <div class="about-stats gsap-about-stats">
+                    <div class="stat-card">
+                        <h3>350+</h3>
+                        <p>TPS Handled in Real-Time</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>6+</h3>
+                        <p>Years of Engineering Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <div class="container">
+                <h2 class="section-title gsap-title">Work Experience</h2>
+                <div class="timeline">
+                    <!-- PineLabs -->
+                    <div class="timeline-item gsap-timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Senior Software Engineer</h3>
+                            <h4>PineLabs, Noida</h4>
+                            <span class="timeline-date">Apr 2025 - Present</span>
+                            <ul>
+                                <li>Engineered a highly available Offer Redemption Service processing <strong>350+ TPS</strong> using Kafka, Redis, and PostgreSQL.</li>
+                                <li>Developed a campaign management platform supporting real-time & scheduled campaigns for millions of customers.</li>
+                                <li>Reduced redemption latency by <strong>60%</strong> through Redis caching, async workflows, and DB optimization.</li>
+                            </ul>
+                            <div class="tech-stack-mini">Java, Spring Boot, Kafka, Redis, PostgreSQL, Docker, Kubernetes</div>
+                        </div>
+                    </div>
+
+                    <!-- Airtel Payments Bank -->
+                    <div class="timeline-item gsap-timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>SDE II</h3>
+                            <h4>Airtel Payments Bank, Gurgaon</h4>
+                            <span class="timeline-date">Dec 2022 - Apr 2025</span>
+                            <ul>
+                                <li>Developed high-performance microservices for recharge and retailer refund workflows supporting large-scale transaction processing.</li>
+                                <li>Delivered end-to-end NCMC card issuance and management workflows through Airtel Thanks.</li>
+                                <li>Improved transaction security and platform scalability through payment gateway integrations.</li>
+                            </ul>
+                            <div class="tech-stack-mini">Java, Spring Boot, Oracle, Kong API Gateway, Kafka, AeroSpike, JWT</div>
+                        </div>
+                    </div>
+
+                    <!-- Credable -->
+                    <div class="timeline-item gsap-timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Product Engineer</h3>
+                            <h4>Credable, Noida</h4>
+                            <span class="timeline-date">Aug 2020 - Sep 2022</span>
+                            <ul>
+                                <li>Improved lending operations by developing microservices for disbursements and reconciliation, reducing manual effort by <strong>70%</strong>.</li>
+                                <li>Automated co-lender workflows through banking integrations, reducing processing time from hours to minutes.</li>
+                                <li>Enhanced risk management via credit limit modules, reducing validation turnaround by <strong>50%</strong>.</li>
+                            </ul>
+                            <div class="tech-stack-mini">Java, Spring Boot, PostgreSQL, MySQL, Metabase, AWS Lambda/S3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title gsap-title">Key Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card gsap-project">
+                        <div class="project-info">
+                            <h3>Customer Engagement Platform</h3>
+                            <p>Architected a merchant-facing platform enabling audience segmentation, orchestration, and personalized offer delivery for millions of customers.</p>
+                            <div class="project-tags">
+                                <span>Java</span><span>Spring Boot</span><span>Kafka</span><span>Redis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card gsap-project">
+                        <div class="project-info">
+                            <h3>Offer Redemption Engine</h3>
+                            <p>Designed a high-throughput distributed rewards engine processing 350+ TPS, supporting real-time offer validation, distributed capping, and idempotent processing.</p>
+                            <div class="project-tags">
+                                <span>Spring Boot</span><span>Kafka</span><span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card gsap-project">
+                        <div class="project-info">
+                            <h3>Digital Card Lifecycle Platform</h3>
+                            <p>Delivered end-to-end debit card and NCMC lifecycle management (issuance, ordering, activation) through Airtel Thanks app via robust REST APIs.</p>
+                            <div class="project-tags">
+                                <span>Java</span><span>Spring Boot</span><span>Oracle</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card gsap-project">
+                        <div class="project-info">
+                            <h3>Lending & Settlement Platform</h3>
+                            <p>Built scalable lending workflows supporting co-lending, loan disbursement, settlement, reconciliation, and risk validation for NBFC financing products.</p>
+                            <div class="project-tags">
+                                <span>Microservices</span><span>Spring Boot</span><span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 (LLD highlight) -->
+                    <div class="project-card gsap-project">
+                        <div class="project-info">
+                            <h3>Stock Brokerage Trading Engine</h3>
+                            <p>A high-concurrency matching engine built from scratch. Features a thread-safe order matching system and pessimistic locking for user portfolios.</p>
+                            <div class="project-tags">
+                                <span>System Design</span><span>Concurrency</span><span>Java</span>
+                            </div>
+                            <a href="https://github.com/avinashsinghrana" class="project-link" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                     <!-- Project 6 (LLD highlight) -->
+                     <div class="project-card gsap-project">
+                        <div class="project-info">
+                            <h3>Spotify Streaming Service Proxy</h3>
+                            <p>A backend music streaming API that uses the Proxy design pattern to manage premium access and Observer pattern for playlist notifications.</p>
+                            <div class="project-tags">
+                                <span>Design Patterns</span><span>Java</span><span>LLD</span>
+                            </div>
+                            <a href="https://github.com/avinashsinghrana" class="project-link" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title gsap-title">Tech Stack</h2>
+                <div class="skills-grid">
+                    <div class="skill-card gsap-skill"><i class="fab fa-java"></i><span>Java</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-leaf"></i><span>Spring Boot</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-database"></i><span>PostgreSQL & SQL</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-server"></i><span>Redis</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-stream"></i><span>Kafka</span></div>
+                    <div class="skill-card gsap-skill"><i class="fab fa-docker"></i><span>Docker</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-network-wired"></i><span>Kubernetes</span></div>
+                    <div class="skill-card gsap-skill"><i class="fab fa-aws"></i><span>AWS (Lambda, S3)</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-project-diagram"></i><span>System Design</span></div>
+                    <div class="skill-card gsap-skill"><i class="fas fa-code-branch"></i><span>Git & Jenkins</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Awards Section -->
+        <section class="education-awards" id="education">
+            <div class="container gsap-education">
+                <div class="edu-awards-grid">
+                    <div class="education-section">
+                        <h2 class="section-title left-align">Education</h2>
+                        <div class="edu-card">
+                            <h3>B.E. in Computer Science and Engineering</h3>
+                            <h4>Technocrats Institute of Technology, Bhopal</h4>
+                            <span class="timeline-date">Aug 2015 - Jun 2019</span>
+                            <p><strong>CGPA:</strong> 7.16/10</p>
+                            <p><strong>Coursework:</strong> Data Structures & Algorithms, OOP, Database Systems, Operating Systems, Distributed Systems.</p>
+                        </div>
+                    </div>
+                    <div class="awards-section">
+                        <h2 class="section-title left-align">Awards & Certifications</h2>
+                        <ul class="awards-list">
+                            <li><i class="fas fa-trophy"></i> <strong>Best Performer Award 2024</strong> – Airtel Payments Bank</li>
+                            <li><i class="fas fa-award"></i> <strong>Cred-Enabler Award Q2 2021</strong> – CredAble</li>
+                            <li><i class="fas fa-chalkboard-teacher"></i> <strong>Mentor at BridgeLabz Solutions</strong> – Mentored graduates on Java, Spring Boot, DS & Algo.</li>
+                            <li><i class="fas fa-medal"></i> <strong>TechGig Code Gladiators 2022</strong> – Secured 371st Rank in the Grand Finale.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container gsap-contact">
+                <h2 class="section-title">Let's Connect</h2>
+                <p>I'm always open to discussing new opportunities, system design challenges, and scalable architecture.</p>
+                <div class="contact-buttons">
+                    <a href="mailto:avinashranaji2011@gmail.com" class="btn primary-btn contact-btn">Email Me</a>
+                    <a href="https://linkedin.com/in/avinashsinghrana" target="_blank" class="btn secondary-btn contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/avinashsinghrana" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/avinashsinghrana" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.hackerrank.com/profile/avinash_rana" target="_blank" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://medium.com/@avinash-rana" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+                </div>
+                <p>&copy; 2026 Avinash Rana.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
